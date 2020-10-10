@@ -2,7 +2,7 @@ from machine import Pin
 from machine import I2C
 from time import sleep
 
-BH1750_ADDR = 0x23
+BH1750_ADDR = None
 
 def read(addr=0x23):
     global BH1750_ADDR
