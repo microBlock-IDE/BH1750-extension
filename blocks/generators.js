@@ -8,6 +8,7 @@ Blockly.Python['bh1750_light'] = function (block) {
 };
 
 Blockly.JavaScript['bh1750_light'] = function (block) {
+  Blockly.JavaScript.definitions_['include']['Wire.h'] = '#include <Wire.h>';
   Blockly.JavaScript.definitions_['include']['ArtronShop_BH1750.h'] = '#include <ArtronShop_BH1750.h>';
 
   var dropdown_addr = block.getFieldValue('addr');
